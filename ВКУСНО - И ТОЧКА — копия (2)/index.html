@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/lt.png">
+ 
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Вкусно - и точка!</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="head">
+            <div class="logo"><img src="img/logo.PNG" width="150px" height="40px" class="logo-img"></div>
+            <div class="menu"><a href="opisanie.html" class="menu-a">О компании</a> <a href="new.html" class="menu-a">Новости</a> <a href="work.html" class="menu-a">Как к нам устроится</a></div>
+
+            
+
+
+
+        </div>
+
+        <div class="main">
+            
+            
+            <div class="slider">
+                <div class="slider-inner">
+                  <img src="img/1.png" alt="Изображение 1">
+                  <img src="img/2.png" alt="Изображение 2">
+                  <img src="img/3.png" alt="Изображение 3">
+                  <img src="img/4.png" alt="Изображение 4">
+                  <img src="img/5.png" alt="Изображение 5">
+                  <img src="img/6.png" alt="Изображение 5">
+                </div>
+                <div class="btn-block">
+
+                    <button onclick="prevImage()" class="btn1"><img src="img/btmli.png" width="50px" height="50px"></button>
+                <button onclick="nextImage()" class="btn1" id="btn2"><img src="img/btmri.png" width="50px" height="50px"></button>
+
+
+                </div>
+            </div>
+            <div class="text-container-1">
+                <h1 class="h1-green">Здравствуйте!</h1>
+                <p>Вас приветсвует компания "Вкусно - и точка". На нашем сайте вы можете посмотреть наши товары и сделать заказ, посмотреть наши акции. Снизу вы можеет посмотреть карту с местами наших ресторанов в городе Новокузнецк. Наши товары являются лучшеми, и мы гарантируем качественное обслуживание и вкусную еду! Чтобы просмотреть новости или больше узнать о нашей копании то перейдите по ссылкам выше!</p>
+
+
+
+            </div>
+
+            <div class="big-text">
+
+                <img src="img/lt.PNG" width="50" height="50">
+                <p>Приходите к нам! Вот наше меню</p>
+
+
+
+            </div>
+
+
+            <div class="container-food-veri">
+                <div class="container-food" data-name="Пара Арбатский Бургер" data-img="img/food-img-1.png" data-weight="494г" data-price="499 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Два сочных бургера с говяжьей котлетой, сыром чеддер, маринованными огурчиками и фирменным соусом.">
+                    <img src="img/food-img-1.png" width="200px">
+                    <p>Пара Арбатский Бургер</p>
+                    <div class="mony">494г от 499 ₽</div>
+                </div>
+        
+                <div class="container-food" data-name="Бургер Арбатский" data-img="img/food-img-2.png" data-weight="247г" data-price="279 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Аппетитный бургер с говяжьей котлетой, свежими овощами и специальным соусом.">
+                    <img src="img/food-img-2.png" width="200px">
+                    <p>Бургер Арбатский</p>
+                    <div class="mony">247г от 279 ₽</div>
+                </div>
+                <div class="container-food" data-name="Пара Арбатский Бургер с курицей" data-img="img/food-img-3.png" data-weight="506г" data-price="439 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Два вкусных бургера с куриной котлетой, ломтиком сыра, листьями салата и пикантным соусом.">
+                    <img src="img/food-img-3.png" width="200px">
+                    <p>Пара Арбатский Бургер с курицей</p>
+                    <div class="mony">506г от 439 ₽</div>
+                </div>
+                <div class="container-food" data-name="Бургер Арбатский с курицей" data-img="img/food-img-4.png" data-weight="253г" data-price="245 ₽" data-available="Нет" data-phone="8-800-555-35-35" data-description="Бургер с сочной куриной котлетой, свежими помидорами, хрустящим луком и нежным соусом.">
+                    <img src="img/food-img-4.png" width="200px">
+                    <p>Бургер Арбатский с курицей</p>
+                    <div class="mony">253г от 245 ₽</div>
+                </div>
+                <div class="container-food" data-name="Зимний Комбо" data-img="img/food-img-5.png" data-weight="Средний" data-price="429 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Набор из согревающего напитка, закуски и картофеля фри.">
+                    <img src="img/food-img-5.png" width="200px">
+                    <p>Зимний Комбо</p>
+                    <div class="mony">Средний от 429 ₽</div>
+                </div>
+                <div class="container-food" data-name="Муромские блинчики с картофелем и грибами" data-img="img/food-img-6.png" data-weight="72г" data-price="115 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Тонкие блинчики, фаршированные картофелем и обжаренными грибами с луком.">
+                    <img src="img/food-img-6.png" width="200px">
+                    <p>Муромские блинчики с картофелем и грибами</p>
+                    <div class="mony">72г от 115 ₽</div>
+                </div>
+                <div class="container-food" data-name="Кидз Комбо обед с игрушкой" data-img="img/food-img-7.png" data-weight="710г" data-price="289 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Обед для детей с выбором основного блюда, напитка и игрушкой.">
+                    <img src="img/food-img-7.png" width="200px">
+                    <p>Кидз Комбо обед с игрушкой</p>
+                    <div class="mony">710г от 289 ₽</div>
+                </div>
+                <div class="container-food" data-name="Пунш Брусника-можжевельник" data-img="img/food-img-8.png" data-weight="Средний" data-price="119 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Согревающий пунш с брусникой и можжевельником, богатый витаминами.">
+                    <img src="img/food-img-8.png" width="200px">
+                    <p>Пунш Брусника-можжевельник</p>
+                    <div class="mony">Средний от 119 ₽</div>
+                </div>
+                <div class="container-food" data-name="Пирожок Клубника-малина" data-img="img/food-img-9.png" data-weight="79г" data-price="79 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Сладкий пирожок с начинкой из клубники и малины.">
+                    <img src="img/food-img-9.png" width="200px">
+                    <p>Пирожок Клубника-малина</p>
+                    <div class="mony">79г от 79 ₽</div>
+                </div>
+                <div class="container-food" data-name="Биг Спешиал Демиглас" data-img="img/food-img-10.png" data-weight="348г" data-price="325 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Большой бургер с двумя говяжьими котлетами, сыром, соусом демиглас и овощами.">
+                    <img src="img/food-img-10.png" width="200px">
+                    <p>Биг Спешиал Демиглас</p>
+                    <div class="mony">348г от 325 ₽</div>
+                </div>
+                <div class="container-food" data-name="Капучино Черешня" data-img="img/food-img-11.png" data-weight="Средний" data-price="159 ₽" data-available="Нет" data-phone="8-800-555-35-35" data-description="Ароматный капучино с добавлением сиропа черешни.">
+                    <img src="img/food-img-11.png" width="200px">
+                    <p>Капучино Черешня</p>
+                    <div class="mony">Средний от 159 ₽</div>
+                </div>
+                <div class="container-food" data-name="Игрушка" data-img="img/food-img-12.png" data-weight="22г" data-price="155 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Случайная игрушка из ограниченной коллекции.">
+                    <img src="img/food-img-12.png" width="200px">
+                    <p>Игрушка</p>
+                    <div class="mony">22г от 155 ₽</div>
+                </div>
+                <div class="container-food" data-name="Пара Картофеля Фри с соусами" data-img="img/food-img-13.png" data-weight="294г" data-price="201 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Двойная порция картофеля фри с двумя видами соусов.">
+                    <img src="img/food-img-13.png" width="200px">
+                    <p>Пара Картофеля Фри с соусами</p>
+                    <div class="mony">294г от 201 ₽</div>
+                </div>
+                 <div class="container-food" data-name="Пара Пуншей Брусника-можжевельник" data-img="img/food-img-14.png" data-weight="600мл" data-price="236 ₽" data-available="Нет" data-phone="8-800-555-35-35" data-description="Два стакана пунша с брусникой и можжевельником, идеально для двоих.">
+                    <img src="img/food-img-14.png" width="200px">
+                    <p>Пара Пуншей Брусника-можжевельник</p>
+                    <div class="mony">600мл от 236 ₽</div>
+                </div>
+                 <div class="container-food" data-name="Супер Бокс для тебя" data-img="img/food-img-15.png" data-weight="849г" data-price="299 ₽" data-available="Да" data-phone="8-800-555-35-35" data-description="Большой бокс с набором разных блюд для одного.">
+                    <img src="img/food-img-15.png" width="200px">
+                    <p>Супер Бокс для тебя</p>
+                    <div class="mony">849г от 299 ₽</div>
+                </div>
+
+               
+                <div class="food-details-overlay" id="foodDetailsOverlay">
+                    <div class="food-details" id="foodDetailsContent">
+                        <button class="close-button" id="closeDetails">&times;</button>
+                    </div>
+                </div>
+            
+                
+
+
+
+
+
+
+            </div>
+
+
+           <div class="map"><h1>Наши рестораны в городе Новокузнецк!</h1><p>Вы можете найти нас на карте! Приходите к нам и покупайте наши товары или сделайте заказ выше!</p><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A758799ac6fb01115e179dc727791edaab9ce4d03aa3486fac48c9f925677b115&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script></div>
+
+
+           <div class="container-2">
+           <div class="text-container-2">
+
+            <h1>"Вкусно — и точка" — это современный ресторан быстрого обслуживания, предлагающий широкий спектр возможностей для каждого посетителя: </h1><ol> <li class="li1"> Вкусное и разнообразное меню <ul><li> Знакомые и любимые блюда: Мы сохранили полюбившиеся вам вкусы, предлагая широкий выбор бургеров, картофеля фри, наггетсов, роллов и других блюд.</li> <li>Обновления и новинки: Мы постоянно работаем над новыми рецептами, предлагая сезонные и специальные предложения, чтобы радовать вас разнообразием.</li> <li> Завтраки, обеды и ужины: Мы предлагаем сбалансированное меню для любого времени суток, от сытных завтраков до полноценных ужинов.</li><li>Десерты и напитки: Насладитесь нашим широким выбором десертов, молочных коктейлей, кофе и освежающих напитков.
+            </li></ul><li class="li1">Удобство и доступность <ul><li>Быстрое обслуживание: Мы ценим ваше время и стремимся предоставлять быстрое и эффективное обслуживание, как в зале, так и на вынос.</li> <li>добные форматы: Мы предлагаем различные форматы обслуживания, включая возможность сделать заказ на кассе, в киоске самообслуживания или онлайн.</li> <li>Различные способы оплаты: Мы принимаем различные способы оплаты, включая наличные, банковские карты и мобильные платежи.</li></ul> <li class="li1">Атмосфера и комфорт<ul><li>Уютные залы: Наши рестораны располагают уютными и комфортными залами, где вы можете насладиться едой в приятной обстановке.</li><li>истота и порядок: Мы придаем большое значение чистоте и порядку, чтобы каждый визит был для вас приятным.</li>
+            <li>Бесплатный Wi-Fi: Мы предоставляем бесплатный доступ к Wi-Fi, чтобы вы могли оставаться на связи.</li><li>Детские зоны (в некоторых ресторанах): Для наших самых маленьких гостей в некоторых ресторанах предусмотрены детские игровые зоны.</li></ul></li></ol></p>
+           </div>
+
+
+
+           <div class="text-container-2">
+            <h1>"Вкусно – и точка": Вкус, который рядом!</h1>
+            <p>"Устали от однообразия? Хотите быстро и вкусно перекусить? Тогда вам точно к нам – в "Вкусно – и точка"! Мы – это современная сеть ресторанов быстрого питания, где каждый найдет что-то по душе.
+
+                Мы взяли лучшее из любимых всеми традиций и добавили нотку новизны, чтобы порадовать вас еще больше. Сочные бургеры из натуральных ингредиентов, хрустящая картошечка, освежающие напитки и многое другое – всё это ждёт вас в наших ресторанах.</p>
+                <p>Что вы получите, выбрав "Вкусно – и точка"?Наша еда готовится быстро, чтобы вы могли насладиться вкусным обедом или ужином, не тратя много времени. У нас есть блюда на любой вкус – от классических бургеров до сытных завтраков и аппетитных десертов.  Мы используем только натуральные ингредиенты от проверенных поставщиков, чтобы вы могли наслаждаться по-настоящему вкусной едой. Наши рестораны – это идеальное место для встречи с друзьями, семьей или для быстрого перекуса в одиночестве.  Мы предлагаем вкусную еду по ценам, которые вас приятно удивят. Следите за нашими новостями, чтобы не пропустить выгодные предложения и новые блюда.</p>
+                <p>
+                    "Хотите быстро узнать о нашем меню, акциях или ближайшем ресторане? Тогда вы попали по адресу! На официальном сайте "Вкусно – и точка" вы найдете всё необходимое для того, чтобы сделать ваш обед или ужин по-настоящему вкусным и приятным.</p>
+           </div>
+           </div>
+
+
+
+        </div>
+        <div class="text-container">
+            <p>Наш ресторан</p>
+            <img src="img/9.png">
+        </div>
+
+        
+
+
+        <div class="footer">
+           <div class="footer-block-1">
+
+            <a href="#"><img src="img/rustor.PNG" width="80px" > </a>
+            <a href="#"><img src="img/appstor.PNG" width="80px"> </a>
+            <a href="#"><img src="img/appgalery.PNG" width="80px"> </a>
+            <a href="#"><img src="img/googleplay.PNG" width="80px"> </a>
+
+
+
+            <a href="#"><img src="img/telegram.PNG" width="20px"></a>
+            <a href="#"><img src="img/od.PNG" width="20px"></a>
+            <a href="#"><img src="img/wk.PNG" width="20px"></a>
+           </div>
+           <div class="footer-block-2">
+
+                <a href="#"><p>Контакт-центр 8 800 600-07-70</p></a>
+           </div>
+
+
+
+
+
+        </div>
+        
+
+
+
+
+
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
